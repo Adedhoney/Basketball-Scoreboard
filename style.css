@@ -1,0 +1,110 @@
+@font-face{
+    font-family:'digital-clock-font';
+    src: url('digital-7-\(mono\).ttf');
+   }
+
+* {
+    box-sizing: boarder-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    background-image: url("basketball-court.jpg");
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    width: 575px;
+    height: 285px;
+    position: relative;
+
+}
+
+#home, #away {
+    width: 50%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#reset {
+    position: absolute;
+    top: 242px;
+    left: 260px;
+
+}
+
+button {
+    background-color: #1B244A;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 155% */
+
+    text-align: center;
+
+    color: #9AABD8;
+}
+
+.title {
+    width: 149px;
+    height: 36px;
+    left: 85px;
+    top: 68px;
+
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    /* identical to box height, or 90% */
+
+    text-align: center;
+    color: #EEEEEE;
+}
+
+.score {
+    width: 117px;
+    height: 120px;
+    left: 100px;
+    top: 125px;
+
+    background-color: #080001;
+    border-radius: 5px;
+
+    font-family: 'digital-clock-font';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    /* or 141% */
+
+    text-align: center;
+
+    color: #F94F6D;
+}
+table {
+    width: 155px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+}
