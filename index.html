@@ -9,18 +9,18 @@
                 <span class="title">HOME</span>
                 <span class="score" id="home_score">0</span>
                 <table>
-                    <td><button onclick="hone()">+1</button></td>
-                    <td><button onclick="htwo()">+2</button></td>
-                    <td><button onclick="hthree()">+3</button></td>
+                    <td><button onclick="addToHome(1)">+1</button></td>
+                    <td><button onclick="addToHome(2)">+2</button></td>
+                    <td><button onclick="addToHome(3)">+3</button></td>
                 </table>
             </div>
             <div id="away">
                 <span class="title">AWAY</span>
                 <span class="score" id="guest_score">0</span>
                 <table>
-                    <td><button onclick="gone()">+1</button></td>
-                    <td><button onclick="gtwo()">+2</button></td>
-                    <td><button onclick="gthree()">+3</button></td>
+                    <td><button onclick="addToAway(1)">+1</button></td>
+                    <td><button onclick="addToAway(2)">+2</button></td>
+                    <td><button onclick="addToAway(3)">+3</button></td>
                 </table>
             </div>
             <button id="reset" onclick="reset()">Reset</button>

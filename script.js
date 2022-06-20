@@ -8,28 +8,12 @@ function reset() {
     document.getElementById("guest_score").textContent = guest_score
 }
 
-function hone() {
-    home_score +=1 
-    document.getElementById("home_score").textContent = home_score
-}
-function htwo() {
-    home_score +=2 
-    document.getElementById("home_score").textContent = home_score
-}
-function hthree() {
-    home_score +=3 
+function addToHome(point) {
+    home_score += point
     document.getElementById("home_score").textContent = home_score
 }
 
-function gone() {
-    guest_score += 1
-    document.getElementById("guest_score").textContent = guest_score
-}
-function gtwo() {
-    guest_score += 2
-    document.getElementById("guest_score").textContent = guest_score
-}
-function gthree() {
-    guest_score += 3
+function addToAway(point) {
+    guest_score += point
     document.getElementById("guest_score").textContent = guest_score
 }
